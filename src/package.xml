@@ -26,14 +26,16 @@
 	</dataSheet>
 
 	<!--First Transformer-->
-	<transformer name="firstModel" displayName="Hello World Spatial 1 (R)" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="3">
+	<transformer name="firstModel" displayName="Hello World Spatial 1 (R)" programArguments="model.R" isStochasticTime="True"
+	condaEnv="helloworldR.yml" condaEnvVersion="3">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="InputDatasheet" type="Input"/>
 		<dataSheet name="IntermediateDatasheet" type="Output"/>
 	</transformer>
 
 	<!--Second Transformer-->
-	<transformer name="secondModel" displayName="Hello World Spatial 2 (R)" programArguments="model2.R" condaEnv="helloworldR.yml" condaEnvVersion="2">
+	<transformer name="secondModel" displayName="Hello World Spatial 2 (R)" programArguments="model2.R" isStochasticTime="True"
+	condaEnv="helloworldR.yml" condaEnvVersion="2">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="IntermediateDatasheet" type="Input"/>
 		<dataSheet name="OutputDatasheet" type="Output"/>
