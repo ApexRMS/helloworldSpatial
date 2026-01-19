@@ -22,9 +22,9 @@ mMean <- myInputDataframe$mMean
 mSD <- myInputDataframe$mSD
 
 # Load raster input 
-rasterMap <- datasheetSpatRaster(myScenario,
-                                 datasheet = "helloworldSpatial_InputDatasheet",
-                                 column = "InterceptRasterFile")
+rasterMap <- datasheet(myScenario,
+             datasheet = "helloworldSpatial_InputDatasheet",
+             column = "InterceptRasterFile")
 
 # Setup empty R dataframe ready to accept output in SyncroSim datasheet format
 myOutputDataframe <- data.frame(Iteration = numeric(0), 
