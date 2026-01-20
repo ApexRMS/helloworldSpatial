@@ -23,7 +23,7 @@ mSD <- myInputDataframe$mSD
 
 # Load raster input 
 rasterMap <- datasheet(myScenario,
-             datasheet = "helloworldSpatial_InputDatasheet",
+             name = "helloworldSpatial_InputDatasheet",
              column = "InterceptRasterFile")
 
 # Setup empty R dataframe ready to accept output in SyncroSim datasheet format
