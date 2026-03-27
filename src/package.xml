@@ -35,7 +35,7 @@
 
 	<!--Second Transformer-->
 	<transformer name="secondModel" displayName="Hello World Spatial 2 (R)" programArguments="model2.R" isStochasticTime="True"
-	condaEnv="helloworldR.yml" condaEnvVersion="2">
+	condaEnv="helloworldR.yml" condaEnvVersion="3">
 		<dataSheet name="RunControl" type="Input"/>
 		<dataSheet name="IntermediateDatasheet" type="Input"/>
 		<dataSheet name="OutputDatasheet" type="Output"/>
